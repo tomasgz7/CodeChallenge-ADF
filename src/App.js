@@ -1,14 +1,19 @@
-import './App.css';
+import React from 'react';
 import Pregunta from './Pregunta';
 
 
 function App() {
 
   return (
+    <div className='container'>
     <header>
-    <h1 className='titulo'>Administración de fondos</h1>
-      <Pregunta />
+        <h1>Administración de fondos</h1>
+     
+        <div className='contenido-principal contenido'>
+        <Pregunta />
+        </div>
     </header>
+    </div>
   );
 }
 
