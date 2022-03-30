@@ -17,7 +17,7 @@ const Pregunta = () => {
             e.preventDefault();
 
         //Validar
-        if( fondos <1 || isNaN ( fondos ) ) {
+        if( fondos < 1 || isNaN ( fondos ) ) {
             setErr(true);
             return;
         }
