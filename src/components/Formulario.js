@@ -2,6 +2,10 @@ import React, {useState} from 'react';
 
 
 const Formulario = () => {
+
+    const [nombre, guardarNombre] = useState('');
+    const [cantidad, guardarCantidad] = useState(0);
+
     return (  
 
         <form>
@@ -13,14 +17,18 @@ const Formulario = () => {
                 type='text'
                 className='u-full-width'
                 placeholder='Ej: Comida, Transporte, Accesorios, etc..'
+                value={nombre}
+                onChange={e => guardarNombre(e.target.value)}
                 />
             </div>
             <div className='campo'>
-                <label>Nombre del Gasto</label>
+                <label>Cantidad del Gasto</label>
                 <input
                 type='number'
                 className='u-full-width'
                 placeholder='Ej: 500, 10.000, 25.000, etc..'
+                value={cantidad}
+                onChange={e => guardarCantidad (parseInt(e.target.value, 10))}
                 />
             </div>
 
