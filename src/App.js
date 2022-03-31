@@ -21,7 +21,7 @@ function App() {
             guardarRestante={guardarRestante}
             actualizarPregunta={actualizarPregunta}
             />
-          ) : (
+          ) :  (
             <div className='row'>
           <div className='one-half column'>
               <Formulario />
