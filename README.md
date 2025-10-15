@@ -1,41 +1,42 @@
-# 💰 Budget Manager
+# 💰 Administrador de fondos 
 
-A modern **web application** built with **HTML, CSS, JavaScript, and React** to help you manage your personal finances efficiently.  
-You can set your total budget, add expenses, and instantly see your remaining balance — all stored locally in your browser using **LocalStorage**.
+Aplicación web moderna desarrollada con **HTML**, **CSS**, **JavaScript** y **React**, pensada para gestionar tus finanzas personales de forma práctica y eficiente.  
+Permite establecer un presupuesto total, registrar gastos y visualizar el saldo restante en tiempo real — todo almacenado localmente en tu navegador mediante **LocalStorage**.
 
-🌐 **Live Demo:** [https://fondos-codechallenge.netlify.app/](https://fondos-codechallenge.netlify.app/)
-
----
-
-## 🧠 About
-
-**Budget Manager** allows you to track your expenses in a clear and organized way.  
-You can add as many expenses as needed, view your remaining balance, and maintain all your data safely thanks to LocalStorage.
+🌐 **Demo en línea:** [https://fondos-codechallenge.netlify.app/](https://fondos-codechallenge.netlify.app/)
 
 ---
 
-## 🚀 Technologies Used
+## 🧠 Acerca del proyecto
 
-- **HTML5** – Semantic structure and layout  
-- **CSS3** – Clean, responsive design and gradient background  
-- **JavaScript (ES6+)** – Logic, calculations, and LocalStorage integration  
-- **React.js** – Component-based UI and reactive state management  
+**Administrador de fondos** te permite llevar el control de tus gastos de manera clara y organizada.  
+Podés agregar todos los gastos que necesites, ver el saldo disponible y mantener tus datos guardados de forma segura gracias al almacenamiento local del navegador.
 
 ---
 
-## ⚙️ Features
+## 🚀 Tecnologías utilizadas
 
-- 💵 Set an initial budget  
-- 🧾 Add expenses with name and amount  
-- 📊 View total and remaining balance in real time  
-- 💾 Persistent data saved in LocalStorage  
-- 🧹 Option to reset or start a new budget  
-- 📱 Responsive design for all devices  
+- **HTML5** — Estructura semántica y maquetado  
+- **CSS3** — Diseño limpio, responsivo y con fondo en gradiente  
+- **JavaScript (ES6+)** — Lógica, cálculos e integración con LocalStorage  
+- **React.js** — Interfaz basada en componentes y manejo reactivo del estado  
 
 ---
 
-## 🏁 Getting Started
+## ⚙️ Funcionalidades
 
-### 1️⃣ Clone the repository
+- 💵 Definir un presupuesto inicial  
+- 🧾 Registrar gastos con nombre y monto  
+- 📊 Visualizar total y saldo restante en tiempo real  
+- 💾 Guardar los datos de forma persistente con LocalStorage  
+- 🧹 Reiniciar o comenzar un nuevo presupuesto  
+- 📱 Diseño adaptable a todos los dispositivos  
+
+---
+
+## 🏁 Cómo empezar
+
+### 1️⃣ Clonar el repositorio
 ```bash
 git clone https://github.com/tomasgz7/fondos-codechallenge.git
+cd fondos-codechallenge
